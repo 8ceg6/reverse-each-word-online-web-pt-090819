@@ -7,3 +7,4 @@ end
 s1_reversed.join(" ")
 end
 
+def reverse_each_word
