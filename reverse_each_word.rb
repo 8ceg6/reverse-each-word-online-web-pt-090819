@@ -7,4 +7,11 @@ end
 s1_reversed.join(" ")
 end
 
-def reverse_each_word
+def reverse_each_word(sentence2)
+  sentence2 = sentence2.split(" ")
+  s2_reversed=[]
+  sentence2.collect do |sentence2|
+    s2_reversed << sentence2.reversed 
+  end
+  s2_reversed.join(" ")
+end
